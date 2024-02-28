@@ -1,0 +1,311 @@
+<html>
+    <head>
+        <title>Pasinda</title>
+        <link rel="stylesheet" href="Pasinda Style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width = device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Home-->
+        <section id="banner">
+            <img src="Logo.png" class="logo">
+            <div class="banner-text">
+                <h1>CRUISE THROUGH CRAVINGS</h1>
+                <p>Order fast with ease and unleash your appetite</p>
+                <button id="myBtn" class="banner-btn"><span></span>Order Now</button>
+            </div>
+
+            <!--ChatBot-->
+            <div id="chatbot" class="chatbot-box">
+                <iframe
+                    allow="microphone;"
+                    width="275px"
+                    height="375px"
+                    src="https://console.dialogflow.com/api-client/demo/embedded/8123cc41-1380-444d-b35f-db6eb244862c">
+                </iframe>
+            </div>
+
+            <script>
+                // Get the button, and when the user clicks on it, execute myFunction
+                document.getElementById("myBtn").onclick = function () { myFunction() };
+
+                /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+                function myFunction() {
+                    document.getElementById("chatbot").classList.toggle("show");
+                }
+            </script>
+        </section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#banner">HOME</a></li>
+                    <li><a href="#feature">FEATURE</a></li>
+                    <li><a href="#ourmenu">MENU</a></li>
+                    <li><a href="#aboutus">ABOUT US</a></li>
+                    <li><a href="#reviews">REVIEWS</a></li>
+                    <li><a href="#footer">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="menu.png" id="menu">
+        </div>
+        
+        <!--Feature-->
+        <section id="feature">
+            <div class="title-text">
+                <p>FEATURES</p>
+                <h1>Why Choose Us</h1>
+            </div>
+            <div class="feature-box">
+                <div class="features">
+                    <h1>Culinary Expert</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                            <i class="fa fa-shield"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>Experience expertly crafted dishes bursting with authentic flavors.</p>
+                        </div>
+                    </div>
+                    <h1>Order Online with Chatbot Fenyx</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                            <i class="fa fa-check-square-o"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>Seamlessly order and track your meal with our interactive chatbot, Fenyx.</p>
+                        </div>
+                    </div>
+                    <h1>Economical</h1>
+                    <div class="features-desc">
+                        <div class="feature-icon">
+                            <i class="fa fa-inr"></i>
+                        </div>
+                        <div class="feature-text">
+                            <p>Enjoy affordable Indian cuisine without compromising on taste or quality.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-img">
+                    <img src="Indian Chef.png">
+                </div>
+            </div>
+        </section>
+
+        <!--Menu-->
+        <section id="ourmenu">
+            <div class="title-text">
+                <p>OUR MENU</p>
+                <h1>Where Every Dish Tells a Story</h1>
+            </div>
+            <div class="ourmenu-box">
+                <div class="single-menu">
+                    <img src="Biryani.jpg">
+                    <div class="overlay"></div>
+                    <div class="ourmenu-desc">
+                        <h3>Veg Biryani</h3>
+                        <hr>
+                        <p>Aromatic rice infused with a symphony of spices and mixed vegetables.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="Chole.jpg">
+                    <div class="overlay"></div>
+                    <div class="ourmenu-desc">
+                        <h3>Chole Bhature</h3>
+                        <hr>
+                        <p>Hearty chickpea curry paired with fluffy fried puri - a North Indian delight.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="Lassi.jpg">
+                    <div class="overlay"></div>
+                    <div class="ourmenu-desc">
+                        <h3>Mango Lassi</h3>
+                        <hr>
+                        <p>Creamy yogurt blended with ripe mangoes - a refreshing taste of summer.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="Masala Dosa.jpg">
+                    <div class="overlay"></div>
+                    <div class="ourmenu-desc">
+                        <h3>Masala Dosa</h3>
+                        <hr>
+                        <p>Crispy rice crepe filled with a flavorful potato masala - a South Indian favorite.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="Pav Bhaji.jpg">
+                    <div class="overlay"></div>
+                    <div class="ourmenu-desc">
+                        <h3>Pav Bhaji</h3>
+                        <hr>
+                        <p>Mumbai's iconic street food - mashed vegetables served with buttered bread.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="Pizza.jpeg">
+                    <div class="overlay"></div>
+                    <div class="ourmenu-desc">
+                        <h3>Pizza</h3>
+                        <hr>
+                        <p>Italian classic with a desi twist - loaded with your favorite toppings on a crispy crust.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="Rava Dosa.jpg">
+                    <div class="overlay"></div>
+                    <div class="ourmenu-desc">
+                        <h3>Rava Dosa</h3>
+                        <hr>
+                        <p>Thin and crispy dosa made from semolina - a delightful twist to the classic.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="Samosa.jpg">
+                    <div class="overlay"></div>
+                    <div class="ourmenu-desc">
+                        <h3>Samosa</h3>
+                        <hr>
+                        <p>Crispy pastry filled with spiced potatoes and peas - a classic Indian snack.</p>
+                    </div>
+                </div>
+                <div class="single-menu">
+                    <img src="Vada Pav.jpg">
+                    <div class="overlay"></div>
+                    <div class="ourmenu-desc">
+                        <h3>Vada Pav</h3>
+                        <hr>
+                        <p>Spicy potato fritter sandwiched in soft bread - Mumbai's favorite street snack.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--About Us-->
+        <section id="aboutus">
+            <div class="title-text">
+                <p>ABOUT US</p>
+                <h1>Where Flavor and Tradition Meet</h1>
+            </div>
+            <div class="aboutus-desc">
+                <h4>Our Story</h4>                    
+                <br>Pasinda was born out of a shared love for Indian food and a desire to make it accessible to everyone, anytime, anywhere. 
+                Our journey began with a simple idea to create a platform where people can experience the essence of Indian flavors 
+                leaving the comfort of their homes.
+                <h4><br>Our Mission</h4>
+                <br>Our mission at Pasinda is to redefine the online food delivery experience by offering not just delicious meals 
+                but also a culinary adventure that tantalizes your taste buds and transports you to the vibrant streets of India. 
+                We strive to provide exceptional service, quality ingredients, and authentic recipes that capture the essence of Indian cooking.
+                <h4><br>Meet Fenyx: Your Culinary Guide</h4>
+                <br>Meet Fenyx, our trusty chatbot companion who is here to assist you every step of the way. 
+                Whether you're craving a classic Pav Bhaji or want to explore the flavors of regional specialties, 
+                Fenyx is here to help you navigate our menu, place orders, and even track your delivery in real-time.
+                <h4><br>Set Sail for Flavorful Adventure</h4>
+                <br>At Pasinda, we invite you to embark on a flavorful journey with us. From the fragrant spices of North India 
+                to the fiery curries of the South, each dish tells a story of tradition, culture, and passion. 
+                So, join us as we set sail for a culinary adventure like no other.
+                <br><br><br>Thank you for choosing Pasinda. We look forward to serving you a delicious taste of India!
+            </div>
+        </section>
+
+        <!--Reviews-->
+        <section id="reviews">
+            <div class="title-text">
+                <p>REVIEWS</p>
+                <h1>Savor What Our Customers Say</h1>
+            </div>
+            <div class="reviews-row">
+                <div class="reviews-col">
+                    <div class="user">
+                        <img src="Image_1.jpg">
+                        <div class="user-info">
+                            <h4>ADITYA JOSHI <i class="fa fa-twitter"></i></h4>
+                            <small>@adityajoshi</small>
+                        </div>
+                    </div>
+                    <p>"I recently ordered from Pasinda for the first time, and I must say, it was an exceptional experience 
+                        from start to finish! The ordering process was seamless, the delivery was prompt, and the food exceeded 
+                        my expectations. The flavors were authentic, and every dish was packed with deliciousness. 
+                        I can't wait to order again!"</p>
+                </div>
+                <div class="reviews-col">
+                    <div class="user">
+                        <img src="Image_2.jpeg">
+                        <div class="user-info">
+                            <h4>ALISHA DESAI <i class="fa fa-twitter"></i></h4>
+                            <small>@alishadesai</small>
+                        </div>
+                    </div>
+                    <p>"I've been ordering from Pasinda for a while now, and they never disappoint! The food is always fresh, 
+                        flavorful, and made with quality ingredients. What sets them apart is their excellent service - from the 
+                        friendly chatbot assistance to the timely delivery, Pasinda always goes above and beyond to ensure customer 
+                        satisfaction. Highly recommended!"</p>
+                </div>
+                <div class="reviews-col">
+                    <div class="user">
+                        <img src="Image_3.jpeg">
+                        <div class="user-info">
+                            <h4>SIDDHARTH MEHTA <i class="fa fa-twitter"></i></h4>
+                            <small>@siddharthmehta</small>
+                        </div>
+                    </div>
+                    <p>"Pasinda has become my go-to for Indian cuisine delivery! Their menu offers a wide variety of mouthwatering 
+                        options, and every dish I've tried has been a culinary delight. The presentation is top-notch, and the flavors 
+                        are simply divine. Pasinda has truly mastered the art of delivering exceptional taste right to my doorstep!"</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact-->
+        <section id="footer">
+            <img src="Footer Image.jpg" class="footer-img">
+            <div class="title-text">
+                <p>CONTACT</p>
+                <h1>Connect with Us</h1>
+            </div>
+            <div class="footer-row">
+                <div class="footer-left">
+                    <h1>Opening Hours</h1>
+                    <p><i class="fa fa-clock-o"></i>Monday to Friday - 10 am to 8 pm</p>
+                    <p><i class="fa fa-clock-o"></i>Saturday & Sunday - 8 am to 11 pm</p>
+                </div>
+                <div class="footer-right">
+                    <h1>Get In Touch</h1>
+                    <p>Narendrapur, West Bengal 700103 <i class="fa fa-map-marker"></i></p>
+                    <p>pasinda.2k24@gmail.com <i class="fa fa-envelope"></i></p>
+                    <p>+917491343422 <i class="fa fa-phone"></i></p>
+                </div>
+            </div>
+            <div class="social-links">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-youtube-play"></i>
+                <p>&copy; 2024 Pasinda Indian Cuisine Fast-Food Restaurant.<br>All rights reserved.</p>
+            </div>
+        </section>
+
+        <script>
+            var menuBtn = document.getElementById ("menuBtn")
+            var sideNav = document.getElementById ("sideNav")
+            var menu = document.getElementById ("menu")
+            sideNav.style.right = "-250px";
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                    menu.src = "close.png";
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                    menu.src = "menu.png";
+                }
+            }
+            var scroll = new SmoothScroll('a[href*="#"]', {speed: 100});
+        </script>
+    </body>
+</html>
