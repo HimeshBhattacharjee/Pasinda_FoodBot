@@ -37,3 +37,7 @@ To run the Pasinda project locally, follow these steps:
 ## Future Updates
 
 This version of Pasinda is a prototype, and more updates and enhancements are planned for the future. Stay tuned for improvements in functionality, user experience, and additional features. Now all the features are just for prototype implementation. Real time applications are planned as future updates.
+
+## Sources
+
+I have taken help from CodeBasics channel to complete this project and also taken help from youtube channels for the frontend code and did required changes and own implementations to make the entire project work.
