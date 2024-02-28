@@ -18,7 +18,7 @@ Pasinda is a prototype version of an online food delivery system for Indian cuis
 
 To run the Pasinda project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/pasinda.git`
+1. Clone the repository: `git clone https://github.com/HimeshBhattacharjee/Pasinda_FoodBot.git`
 2. Install the necessary Python dependencies
 3. Set up Dialogflow integration and obtain the necessary credentials.
 4. Customize the HTML and CSS files to match your website's design and content.
@@ -36,4 +36,4 @@ To run the Pasinda project locally, follow these steps:
 
 ## Future Updates
 
-This version of Pasinda is a prototype, and more updates and enhancements are planned for the future. Stay tuned for improvements in functionality, user experience, and additional features.
+This version of Pasinda is a prototype, and more updates and enhancements are planned for the future. Stay tuned for improvements in functionality, user experience, and additional features. Now all the features are just for prototype implementation. Real time applications are planned as future updates.
