@@ -31,7 +31,6 @@ To run the Pasinda project locally, follow these steps:
 
 ## Project Timeline
 
-- **Duration:** 7 days
 - **Completion Date:** [27/02/2024]
 
 ## Future Updates
